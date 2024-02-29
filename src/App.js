@@ -19,7 +19,8 @@ const TableReservation = () => {
     const inputNameLowercase = inputName.toLowerCase();
     // Simulated data of guest names and their corresponding table numbers
     const guestList = {
-      "Teo Chee Hao": { designation:"Mr.Teo", tableNumber: 1, remark: "VIP guest" },
+      "Teo Chee Hao": { designation:"Mr.Teo", tableNumber: 1, remark: "Groom" },
+      "Phua Sherlee": { designation:"Ms.Sherlee", tableNumber: 1, remark: "Bride" },
       "Teo Hong": { designation:"Mr.Teo & Mdm.Loh", tableNumber: 1, remark: "VIP guest" },
       "Phua Tai Heng": { designation:"Mr.Phua & family", tableNumber: 1, remark: "VIP guest" },
       "Phua Sherene": { designation:"Ms.Phua & daughter", tableNumber: 9, remark: "Welcome to my wedding, dear sister!" },

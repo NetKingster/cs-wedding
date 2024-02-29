@@ -106,7 +106,7 @@ const TableReservation = () => {
   return (
     <div className="container-fluid" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', minHeight: '100vh',  justifyContent: 'center', alignItems: 'center' }}>
       <h1 className="text-center mb-4" style={{ fontFamily: 'Dancing Script, cursive', fontSize: '60px'}}>Welcome to <br></br>Chee Hao & Sherlee <br></br>Wedding</h1>
-      <div className="card p-5" style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', backdropFilter: 'blur(10px)' }}>
+      <div className="card p-5" style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', backdropFilter: 'blur(10px)', position: 'relative' }}>
         <form onSubmit={handleSubmit} className="mb-3">
           <p style={{ fontFamily: 'Dancing Script, cursive', fontSize: '18px'}}>Dear Guest, please enter your full name to find your seat</p>
           <div className="mb-3">
@@ -130,8 +130,10 @@ const TableReservation = () => {
           <p className='text-secondary text-center' style={{ fontFamily: 'Pacifico, cursive', fontSize: '18px'}}>Dear {designation}, <br></br> Your table number is</p>
         )}
         {tableNumber && (
-          <div className="circle-animation">
-            <p className="circle-number">{tableNumber}</p>
+          <div className='parent-container'>
+            <div className="circle-animation">
+              <p className="circle-number">{tableNumber}</p>
+            </div>
           </div>
         )}
         <p className='text-secondary text-center' style={{ fontFamily: 'Pacifico, cursive', fontSize: '18px'}}>{remark}</p>

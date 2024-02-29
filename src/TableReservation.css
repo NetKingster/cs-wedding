@@ -1,0 +1,39 @@
+.circle-animation {
+    width: 100px;
+    height: 100px;
+    background-color: #eee2d8f8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: bounce 1s infinite alternate; /* Animation */
+    margin-left: 45%;
+}
+
+.circle-number {
+    color: rgb(2, 2, 2);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.error-animation {
+    animation: shake 0.5s; /* Animation */
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+  

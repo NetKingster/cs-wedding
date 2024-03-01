@@ -1,7 +1,7 @@
 .parent-container {
     position: relative; /* Ensure proper positioning */
     width: 100%; /* Example width */
-    height: 10vh; /* Example height */
+    height: 18vh; /* Example height */
     display: flex;
     justify-content: center;
     align-items: center;

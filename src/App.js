@@ -29,7 +29,7 @@ const TableReservation = () => {
       "Phua Sherphia": { designation:"Ms.Sherphia & family", tableNumber: 9, remark: "Welcome to my wedding, dear sister & your family!" },
       "Wong Zhee Lun": { designation:"Mr.Wong ZL & family", tableNumber: 9, remark: "Welcome to my wedding, dear brother-in-law & your family!" },
       "Phua Howard": { designation:"Mr.Howard", tableNumber: 9, remark: "Welcome to my wedding, dear brother!" },
-      "Eng Lai Yi": { designation:"Ms.Lai Yi & your BF", tableNumber: 9, remark: "Welcome! Please enjoy" },
+      "Eng Ley Yue": { designation:"Ms.Ley Yue & your BF", tableNumber: 9, remark: "Welcome! Please enjoy" },
       "谢源胜": { designation:"谢先生 & 您家人", tableNumber: 2, remark: "Welcome! Please enjoy" },
       "谢巧利": { designation:"谢小姐 & 您家人", tableNumber: 2, remark: "Welcome! Please enjoy" },
       "Teo Tian Siang": { designation:"Mr.Teo TS & family", tableNumber: 2, remark: "Welcome! Please enjoy" },
